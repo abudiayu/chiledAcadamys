@@ -1,0 +1,171 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.banner_container {
+  margin: 0;
+  background-image: url("../imgs/unnamed.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.kids_container {
+  background-color: brown;
+  text-align: center;
+  margin: auto;
+}
+
+.kids_title {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+.y {
+  color: #ff0000;
+}
+.o {
+  color: #ffa500;
+}
+.u {
+  color: #ffff00;
+}
+.t {
+  color: #008000;
+}
+.u2 {
+  color: #0000ff;
+}
+.b {
+  color: #800080;
+}
+.e {
+  color: #ff00ff;
+}
+.k {
+  color: #ffd700;
+}
+.i {
+  color: #ff6347;
+}
+.d {
+  color: #1e90ff;
+}
+.s {
+  color: #3cb371;
+}
+
+.p {
+  color: #5608f2;
+}
+.l {
+  color: #ff4500;
+}
+.a {
+  color: #f5b104;
+}
+.y2 {
+  color: #07f4e8;
+}
+.g {
+  color: #0be812;
+}
+.r {
+  color: #c71585;
+}
+.o2 {
+  color: #4169e1;
+}
+.u3 {
+  color: #8b4513;
+}
+.n {
+  color: red;
+}
+.d2 {
+  color: #00ced1;
+}
+
+.kids_title {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+  text-shadow: 3px 3px 0 #fff, -3px -3px 0 #fff, 3px -3px 0 #fff,
+    -3px 3px 0 #fff, 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.y {
+  color: #ff0000;
+}
+.o {
+  color: #ff9800;
+}
+.u {
+  color: #4caf50;
+}
+.t {
+  color: #2196f3;
+}
+.b {
+  color: #9c27b0;
+}
+.e {
+  color: #e91e63;
+}
+.k {
+  color: #ffc107;
+}
+.i {
+  color: #00bcd4;
+}
+.d {
+  color: #8bc34a;
+}
+.s {
+  color: #ff5722;
+}
+.p {
+  color: #3f51b5;
+}
+.l {
+  color: #009688;
+}
+.a {
+  color: #cddc39;
+}
+.g {
+  color: #673ab7;
+}
+.r {
+  color: #795548;
+}
+.n {
+  color: #607d8b;
+}
+
+@media (max-width: 768px) {
+  .banner_container {
+    min-height: 200px;
+    padding: 20px 10px;
+  }
+
+  .kids_title {
+    font-size: 8vw;
+  }
+
+  .kids_title br {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .kids_title {
+    font-size: 70px; 
+  }
+}
