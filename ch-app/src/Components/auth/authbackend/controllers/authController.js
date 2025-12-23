@@ -12,7 +12,7 @@ export const registerUserController = async (req, res) => {
     return res.status(result.status ? 201 : 400).json(result);
 
   } catch (error) {
-    console.error("Register Error:", error); 
+    console.error("Register Error:", error);
     res.status(500).json({ status: false, message: error.message });
   }
 };
