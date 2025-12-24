@@ -2,7 +2,7 @@ import express from "express";
 import {
   registerUserController,
   loginUserController,
-} from "../authbackend/controllers/authController.js";
+} from "../controllers/authController.js";
 
 const router = express.Router();
 
