@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./login.css";
-import { loginUser } from "../../../services/loginService.jsx";
+import { loginUser } from "../../services/loginService.jsx";
 
 function Login() {
   const [username, setUsername] = useState("");
