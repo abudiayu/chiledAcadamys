@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import { registerUser } from "../../services/signupService";
+import { registerUser } from "../services/authServices.jsx";
 import { useNavigate } from "react-router-dom";
-import "./SignUp.css";
+import "./signup.css"; // <-- import here
 
 const Signup = () => {
   const [form, setForm] = useState({ fullName: "", email: "", password: "" });
   const [message, setMessage] = useState("");
   const navigate = useNavigate();
+
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
